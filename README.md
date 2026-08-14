@@ -2,21 +2,24 @@
 
 To write and execute an Embedded C Program for Serial Transfer of Single Byte / Character using 8051 in
 
-AIM
+## AIM
 To write and execute an Embedded C Program for Serial Transfer of Single Byte / Character using 8051 in
 keil.
 
-APPARATUS REQUIRED
+## APPARATUS REQUIRED
 
-Keil.
-Personal Computer
-Keil μVision Software
-Serial Transfer of Single Byte / Character using 8051 (Keil)
+1.Keil.
+
+2.Personal Computer
+
+3.Keil μVision Software
+
+4.Serial Transfer of Single Byte / Character using 8051 (Keil)
 
 
-PROGRAM
-(i) Serial Port Transfer a Single Character
-
+## PROGRAM
+### (i) Serial Port Transfer a Single Character
+```
 #include<reg51.h>
 void main(void)
 {
@@ -29,9 +32,9 @@ while (T1==0);
 T1=0;
 while(1);
 }
-
-(ii) Serial Port to Transfer a Message
-
+```
+### (ii) Serial Port to Transfer a Message
+```
 #include <reg51.h>
 void main(void)
 {
@@ -49,24 +52,26 @@ TI = 0;
 }
 while(1);
 }
-
-OUTPUT
-(i) Serial Port Transfer a Single Character
-
-
+```
+## OUTPUT
+### (i) Serial Port Transfer a Single Character
 
 
-
-
-(ii) Serial Port to Transfer a Message
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/11f38a27-cbf3-4611-8442-4283f3af44fb" />
 
 
 
 
+### (ii) Serial Port to Transfer a Message
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e1725c29-f5c9-4268-be33-c468bc64c59d" />
 
 
 
 
-RESULT
+
+
+## RESULT
 
 Thus the Serial transfer of Single Byte / Character using 8051 KEIL was done and shown the output.
